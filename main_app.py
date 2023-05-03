@@ -83,8 +83,3 @@ else:
 # 'selection' variable and the correspoding value to that key gets stored in the 'page' variable and then the 'app()'
 # function gets called from that Python file 
 # which could be either of 'home.py', 'data.py', 'plots.py' and 'predict.py' files in this case.
-
-# Add a short description of video and embed a YouTube video inside the expander. 
-# with st.beta_expander("Watch Video"):
-#     st.write("You can learn how to host a Streamlit app on Heroku by watching this video:")
-#     st.video("https://youtu.be/oBA5I__AfmY")

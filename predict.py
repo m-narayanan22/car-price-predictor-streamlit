@@ -55,7 +55,7 @@ def app(car_df):
         st.subheader("Prediction results:")
         price, score, car_r2, car_mae, car_msle, car_rmse = prediction(car_df, car_wid, eng_siz, hor_pow, drw_fwd, com_bui)
         st.success("The predicted price of the car: ${:,}".format(int(price)))
-        st.info("Accuracy score of this model is: {:2.2%}".format(score))
+        #st.info("Accuracy score of this model is: {:2.2%}".format(score))
         st.info(f"R-squared score of this model is: {car_r2:.3f}")  
         st.info(f"Mean absolute error of this model is: {car_mae:.3f}")  
         st.info(f"Mean squared log error of this model is: {car_msle:.3f}")  
